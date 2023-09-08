@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddindx} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -41,7 +41,7 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? menu : close}
+            src={toggle ? close : menu}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
