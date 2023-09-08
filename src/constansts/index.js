@@ -46,8 +46,8 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: web,
     },
     {
       title: "Backend Developer",
