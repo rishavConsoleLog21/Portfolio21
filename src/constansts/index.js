@@ -16,6 +16,8 @@ import {
     figma,
     docker,
     meta,
+    // icsol,
+    // intershala,
     starbucks,
     tesla,
     shopify,
@@ -116,29 +118,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Web Developer Intern",
+      company_name: "IC Solutions",
+      icon: meta,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2022 - Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I gained valuable experience in various technologies including HTML, CSS, JavaScript, and Django",
+        "Throughout the internship, I had the opportunity to work on a project for a client, where I developed an event scheduler application.",
+        "One of the major highlights of my internship was working with Django, a high-level Python web framework",
+        "I utilized my knowledge of HTML, CSS, JavaScript, and Django to develop an events scheduler application.",
+        "I also gained experience in working with a team of developers and designers to create a high-quality product for a client."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Internshala Student Partner",
+      company_name: "Internshala",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct 2021 - Jun 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "My experience with the ISP program has been exceptional",
+        "The recognition and validation from the ISP program have been instrumental in boosting my confidence and enhancing my resume",
+        "The program helped me enhance my communication skills, This experience was beyond my wildest imagination",
       ],
     },
     {
@@ -153,20 +155,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
