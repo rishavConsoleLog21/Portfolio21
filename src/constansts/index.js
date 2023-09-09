@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    github,
     meta,
     // icsol,
     // intershala,
@@ -103,17 +103,17 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "github",
+      icon: github,
     },
     {
       name: "figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name: "C Programming",
+      icon: git,
+    }
   ];
   
   const experiences = [
