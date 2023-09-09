@@ -187,25 +187,29 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CampIndia",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Campground India is a website where people can find a place to do camping. People can book the campgrounds in various city across india.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "expressjs",
           color: "pink-text-gradient",
+        },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rishavConsoleLog21/CampIndia",
     },
     {
       name: "Job IT",
