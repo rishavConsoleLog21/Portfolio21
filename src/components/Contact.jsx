@@ -15,9 +15,39 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value})
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .send('service_0bgnecg', 'template_86m8meo',
+      {
+        from_name: form.name,
+        to_name: 'Rishav',
+        from_email: form.email,
+        to_email: 'kumarrishavcool21@gmail.com',
+        message: form.message,
+      },
+      'qeRO2qm6_JDzGIqo1'
+      )
+      .then(() => {
+        setLoading(false);
+        alert("Thank you for your message. I'll get back to you ASAP.");
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, (error) => {
+        setLoading(false);
+        alert("Something went wrong. Please try again.");
+        console.log(error);
+      }
+  )};
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -39,7 +69,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder="Your Name Please?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -50,7 +80,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your Email?"
+              placeholder="Your Email Please📧"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -61,7 +91,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Your Message Please!!!!"
+              placeholder="Your Message Please❤️"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -83,4 +113,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "Contact");
+export default SectionWrapper(Contact, "contact");
