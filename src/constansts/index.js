@@ -160,7 +160,7 @@ import {
     {
       name: "CampIndia",
       description:
-        "Campground India is a website where people can find a place to do camping. People can book the campgrounds in various city across india.",
+        "Campground India is a website where people can find a place to do camping. People can book the campgrounds in various city across india. User can make their own campground and can review on other's campground. User can also edit and delete their own campground.",
       tags: [
         {
           name: "mongodb",
@@ -183,46 +183,46 @@ import {
       source_code_link: "https://github.com/rishavConsoleLog21/CampIndia",
     },
     {
-      name: "Job IT",
+      name: "EV Charging & Parking",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Project to be implemented here is a Smart EV Charging Station. As we know, electric vehicles (EVs) are being adopted at a rapid rate, necessitating the creation of a sophisticated charging infrastructure to support their widespread use.",
       tags: [
         {
-          name: "react",
+          name: "C Programming",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Embedded C",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Arduino",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React JS ",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rishavConsoleLog21/Smart-EV-Charging-Parking-Station.git",
     },
     {
-      name: "Trip Guide",
+      name: "IoT Based Garbage Monitoring System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "In public places and villages garbage accumulation is the serious problem now a day. The unhygienic condition leads to different diseases and spoil the environment. This can be solved by maintaining the smart dustbin in the surroundings.",
       tags: [
         {
-          name: "nextjs",
+          name: "C Programming",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "IoT",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rishavConsoleLog21",
     },
   ];
   
