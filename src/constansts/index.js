@@ -26,6 +26,8 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  import countdown from '../assets/countdown.png'
   
   export const navLinks = [
     {
@@ -224,6 +226,26 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/rishavConsoleLog21",
     },
+    {
+      name: "Countdown Timer Game",
+      description: "The Countdown Game website is a thrilling and engaging web application built using the React.js framework, offering users a fun and challenging experience. The game tests their reflexes and precision by challenging them to stop a countdown at precisely the right moment to win points. Key Features: Countdown Timer Selection, Start Button, Stop Button, Reset Button,Win or Lose and Score.",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: countdown,
+      source_code_link: 'https://github.com/rishavConsoleLog21/CountdownClick-Game'
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
