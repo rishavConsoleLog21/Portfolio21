@@ -184,7 +184,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/rishavConsoleLog21/CampIndia",
+    source_code_link: "https://campindia.me/",
   },
   {
     name: "Countdown Timer Game",
