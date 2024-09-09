@@ -21,6 +21,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  pavithraPortfolio,
   carrent,
   jobit,
   tripguide,
@@ -162,6 +163,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Portfolio",
+    description:
+      "This is a portfolio web page created for my client, Pavithra CR. The purpose of this website is to showcase her work, skills, and achievements. The website is built using React.js, Tailwind CSS, and Framer Motion. The website is fully responsive and optimized for all devices.",
+    tags: [
+      {
+        name: "react-js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3d-model",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pavithraPortfolio,
+    source_code_link: "https://pavithra-portfolio.vercel.app/",
+  },
+  {
     name: "CampIndia",
     description:
       "Campground India is a website where people can find a place to do camping. People can book the campgrounds in various city across india. User can make their own campground and can review on other's campground. User can also edit and delete their own campground.",
@@ -206,7 +232,7 @@ const projects = [
     ],
     image: countdown,
     source_code_link:
-      "https://github.com/rishavConsoleLog21/CountdownClick-Game",
+      "https://clicktowin.onrender.com/",
   },
   {
     name: "ChatIt",
@@ -231,7 +257,7 @@ const projects = [
       },
     ],
     image: chatit,
-    source_code_link: "https://github.com/rishavConsoleLog21/chatit.git"
+    source_code_link: "https://chatit-azure.vercel.app/"
   },
   {
     name: "EV Charging & Parking",
