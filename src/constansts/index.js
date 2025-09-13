@@ -1,5 +1,4 @@
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -18,14 +17,14 @@ import {
   meta,
   // icsol,
   // intershala,
-  starbucks,
   tesla,
-  shopify,
   pavithraPortfolio,
   carrent,
   jobit,
   tripguide,
   threejs,
+  freelance,
+  facile,
 } from "../assets";
 
 import countdown from "../assets/countdown.png";
@@ -121,6 +120,34 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Associate Technical Consultant",
+    company_name: "Facile Consulting",
+    icon: facile,
+    iconBg: "#383E56",
+    date: "Jan 2025 - Present",
+    points: [
+      "Working as an Associate Technical Consultant at Facile Consulting, where I am involved in various projects and tasks related to web development and software engineering.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Continuously learning and staying up-to-date with the latest technologies and industry trends.",
+      "Contributing to the development of best practices and standards for the team.",
+    ],
+  },
+  {
+    title: "Freelance Web Developer",
+    company_name: "Freelance",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "Jan 2024 - Present",
+    points: [
+      "I have worked on several freelance projects, including a portfolio website for a client using React.js, Tailwind CSS, and Framer Motion.",
+      "I have also worked on a project using the MERN stack (MongoDB, Express.js, React.js, Node.js) to create a full-stack web application.",
+      "I have experience working with clients to understand their requirements and deliver high-quality work on time.",
+      "I am proficient in using Git for version control and have experience working in a team environment.",
+      "I am always eager to learn new technologies and improve my skills as a web developer.",
+    ],
+  },
   {
     title: "Web Developer Intern",
     company_name: "IC Solutions",
@@ -231,8 +258,7 @@ const projects = [
       },
     ],
     image: countdown,
-    source_code_link:
-      "https://clicktowin.onrender.com/",
+    source_code_link: "https://clicktowin.onrender.com/",
   },
   {
     name: "ChatIt",
@@ -257,7 +283,7 @@ const projects = [
       },
     ],
     image: chatit,
-    source_code_link: "https://chatit-azure.vercel.app/"
+    source_code_link: "https://chatit-azure.vercel.app/",
   },
   {
     name: "EV Charging & Parking",
